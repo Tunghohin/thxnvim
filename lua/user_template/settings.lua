@@ -6,4 +6,8 @@ settings["use_ssh"] = true
 
 settings["colorscheme"] = "catppuccin"
 
+settings["disabled_plugins"] = {
+	"mfussenegger/nvim-treehopper",
+}
+
 return settings
