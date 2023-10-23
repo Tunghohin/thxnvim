@@ -32,6 +32,11 @@ M.setup = function()
 		-- Use preset if there is no user definition
 		if not ok then
 			ok, custom_handler = pcall(require, "completion.servers." .. lsp_name)
+			-- vim.notify(
+			-- 	string.format("%s, %s", lsp_name, type(custom_handler)),
+			-- 	vim.log.levels.ERROR,
+			-- 	{ title = "nvim-lspconfig" }
+			-- )
 		end
 		if not ok then
 			-- Default to use factory config for server(s) that doesn't include a spec
