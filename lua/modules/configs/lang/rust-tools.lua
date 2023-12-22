@@ -152,16 +152,16 @@ return function()
 			-- standalone file support
 			-- setting it to false may improve startup time
 			standalone = true,
-			settings = {
-				["rust-analyzer"] = {
-					cargo = {
-						target = "riscv64gc-unknown-none-elf",
-					},
-					check = {
-						allTargets = false,
-					},
-				},
-			},
+			-- settings = {
+			-- 	["rust-analyzer"] = {
+			-- 		cargo = {
+			-- 			target = "riscv64gc-unknown-none-elf",
+			-- 		},
+			-- 		check = {
+			-- 			allTargets = false,
+			-- 		},
+			-- 	},
+			-- },
 		}, -- rust-analyer options
 
 		-- debugging stuff

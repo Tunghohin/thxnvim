@@ -8,6 +8,7 @@ settings["colorscheme"] = "catppuccin"
 
 settings["disabled_plugins"] = {
 	"mfussenegger/nvim-treehopper",
+	"ojroques/nvim-osc52",
 }
 
 return settings
